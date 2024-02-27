@@ -1,7 +1,7 @@
 # Robotics2_FKandIK_Group13_Articulated_2024
 
 
-Group 6 Members:
+Group-6-Members:
 
 Abong, Louwella (PL)
 
