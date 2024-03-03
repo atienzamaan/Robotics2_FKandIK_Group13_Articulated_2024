@@ -13,7 +13,7 @@ T3 = float(input("T3 = "))
 
 # degree to radian
 
-T1 = (T1/160.0)*np.pi
+T1 = (T1/180.0)*np.pi
 T2 = (T2/180.0)*np.pi
 T3 = (T3/180.0)*np.pi
 
