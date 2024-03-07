@@ -18,7 +18,7 @@ H1 = Link([0,a1,0,pi/2,0]);
 H1.qlim = [-pi/2 pi/2];
 
 H2 = Link([0,0,a2,0,0]);
-H2.qlim = [-pi/6 pi/2];
+H2.qlim = [-pi/2 pi/2];
 
 H3 = Link([0,0,a3,0,0]);
 H3.qlim = [-pi/2 pi/2];
