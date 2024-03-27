@@ -7,6 +7,7 @@
 
 <h2 align="center">TABLE OF CONTENTS:
 <h2 align="left">I. Introduction
+  
   II. Degrees of Freedom
   
   III. Kinematic Diagram and D-H Frame 
