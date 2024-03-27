@@ -5,11 +5,11 @@
 <h4 align="justify">  This repository will serve as Group 13-Articulated, Midterm project in Robotics 2. This focuses on the Articulated Manipulator, providing an overview of the important characteristics such as calculating the degrees of freedom (DOF) and employing Denavit-Hartenberg (D-H) Notation for the joint parameters. Furthermore, forward and reverse kinematics for joint angles and the position of the end-effector will also be tackled. To further clarify the concepts of how an Articulated Manipulator functions, more images, and descriptions are also included. 
 
 <h2 align="center">TABLE OF CONTENTS:
-<h3 align="left">
-I. Introduction
-</p>
-II. Degrees of Freedom
-</p>	
+  
+  [I. Introduction](#i-introduction)
+  
+  [II. Degrees of Freedom](ii-degrees-of-freedom--)
+  
 III. Kinematic Diagram and D-H Frame 
 </p>
 IV. D-H Parametric Table  
@@ -24,12 +24,15 @@ VIII. References
 </p>  
 IX. Curriculum Vitae
 </p>
-<h2 align="center">I. INTRODUCTION
+
+## <h2 align="center">I. INTRODUCTION
+
 </p>
 </p>
 </p>
  <img align="left" alt="Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
 </p>
+
   <h4 align="justify"> </div> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
 </p> 
 </p>
