@@ -7,14 +7,22 @@
 
 <h2 align="center">TABLE OF CONTENTS:
 <h2 align="left">I. Introduction
-II. Degrees of Freedom
-III. Kinematic Diagram and D-H Frame 
-IV. D-H Parametric Table 
-V. Homogeneous Transformation Matrix
-VI. Inverse Kinematics
-VII. Forward and Inverse Kinematics GUI Calculator
-VIII. References	
-IX. Curriculum Vitae
+
+  II. Degrees of Freedom
+  
+  III. Kinematic Diagram and D-H Frame 
+ 
+  IV. D-H Parametric Table 
+  
+  V. Homogeneous Transformation Matrix
+  
+  VI. Inverse Kinematics
+  
+  VII. Forward and Inverse Kinematics GUI Calculator
+  
+  VIII. References	
+  
+  IX. Curriculum Vitae
 
 <h2 align="center">I. INTRODUCTION
 
@@ -35,9 +43,12 @@ IX. Curriculum Vitae
 <h2 align="center">Group 13 - Articulated Team 
 
 <h2 align="left">Abong, Louwella (PL)
-Atienza, Ma. Angela (PQ)
-Marasigan, Stanlee (PP)
-Reyes, Shervin (PS)
+  
+  Atienza, Ma. Angela (PQ)
+  
+  Marasigan, Stanlee (PP)
+  
+  Reyes, Shervin (PS)
 
 <h2 align="center">Group 13 - Articulated Team 
 Abong, Louwella (PL)
