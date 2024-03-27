@@ -36,7 +36,7 @@ IX. Curriculum Vitae
 
 
 <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
-
+![Screenshot 2024-03-27 103048](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/f405b9a1-ab2d-47b6-857b-d9cbd6cea343)
 
 <h2 align="center">VI. INVERSE KINEMATICS USING GRAPHICAL METHOD
 
