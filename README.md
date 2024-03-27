@@ -26,13 +26,8 @@
   [IX. Our Team](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
-
-</p>
-</p>
-</p>
  <img align="left" alt="Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
 </p>
-
   <h4 align="justify"> </div> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
 </p> 
 </p>
@@ -49,7 +44,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 </p>
 
 <p align="center">
-  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/d74e24ea-5b11-4efb-b1b7-a66115e37dfd">
+  <mp4 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/d74e24ea-5b11-4efb-b1b7-a66115e37dfd">
 </p>
 <p align="center">
   <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/32493d2c-c98d-404a-96bb-39aace8f6107">
@@ -57,7 +52,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
 
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/x4UnKbk0DU4&t=179s.jpg)](https://www.youtube.com/watch?v=x4UnKbk0DU4&t=179s)
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
 
 ## <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
