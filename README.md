@@ -1,29 +1,29 @@
 <h1 align="center">ARTICULATED MANIPULATOR
   <h4 align="center">by Group 13 - Articulated_2024
 
-<h2 align="center"> Abstract 
+## <h2 align="center"> Abstract 
 <h4 align="justify">  This repository will serve as Group 13-Articulated, Midterm project in Robotics 2. This focuses on the Articulated Manipulator, providing an overview of the important characteristics such as calculating the degrees of freedom (DOF) and employing Denavit-Hartenberg (D-H) Notation for the joint parameters. Furthermore, forward and reverse kinematics for joint angles and the position of the end-effector will also be tackled. To further clarify the concepts of how an Articulated Manipulator functions, more images, and descriptions are also included. 
 
-<h2 align="center">TABLE OF CONTENTS:
-  
+## <h2 align="center">TABLE OF CONTENTS:
+<h3 align="center">  
+ 
   [I. Introduction](#i-introduction)
   
-  [II. Degrees of Freedom](ii-degrees-of-freedom)
+  [II. Degrees of Freedom](#ii-degrees-of-freedom)
   
-III. Kinematic Diagram and D-H Frame 
-</p>
-IV. D-H Parametric Table  
-</p>
-V. Homogeneous Transformation Matrix
-</p>
-VI. Inverse Kinematics
-</p>
-VII. Forward and Inverse Kinematics GUI Calculator
-</p>
-VIII. References
-</p>  
-IX. Curriculum Vitae
-</p>
+  [III. Kinematic Diagram and D-H Frame](#iii-kinematic-diagram-and-d-h-frame)
+  
+  [IV. D-H Parametric Table](iv-d-h-parametric-table)
+  
+  [V. Homogeneous Transformation Matrix](v-homogeneous-transformation-matrix)
+  
+  [VI. Inverse Kinematics](v-homogeneous-transformation-matrix)
+  
+  [VII. Forward and Inverse Kinematics GUI Calculator](vii-forward-and-inverse-kinematics-gui-calculator)
+  
+  [VIII. References](viii-references)
+  
+  [IX. Our Team](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
 
@@ -77,7 +77,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 
 ## <h2 align="center">VIII. REFERENCES
 
-<h2 align="center">Group 13 - Articulated Team 
+## <h2 align="center">Our Team 
 
 <h2 align="left">Abong, Louwella (PL)
   
@@ -87,7 +87,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
   
   Reyes, Shervin (PS)
 
-<h2 align="center">Group 13 - Articulated Team 
+<h2 align="center">Our Team 
 Abong, Louwella (PL)
   
 Atienza, Ma. Angela (PQ)
