@@ -53,9 +53,8 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 </p>
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
-<p align="center">
-   <mp4 src="">
-</p>	           
+
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/x4UnKbk0DU4&t=179s.jpg)](https://www.youtube.com/watch?v=x4UnKbk0DU4&t=179s)
 
 
 <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
