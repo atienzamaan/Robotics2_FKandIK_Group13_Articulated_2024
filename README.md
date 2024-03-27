@@ -50,33 +50,26 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
 </p>
-<a href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
-  <picture>
+<p href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
     <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff" alt="Discussion of Degrees of Freedom for the Articulated Manipulator" width = 600 title="Discussion of Degrees of Freedom for the Articulated Manipulator">
     
 ## <h2 align="center">III. Kinematic Diagram and D-H Frame
-
-  <h4 align="justify"> The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.   
+<img align="right" alt="Coding" width="250" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/fbc7cfb9-1cdc-4493-994e-eaa1986e882c">
+ <h4 align="justify"> The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.   
 </p>	
 To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation). The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier. It is frequently used in robotics, particularly industrial robot systems and robot arms with manipulators. In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint. When implementing D-H Notation, these rules are utilized to allocate frames in a kinematic diagram. One of the rules is that we must utilize the "Right Hand Rule" to decide where to locate the X, Y, and Z axes.  
-</p>	  
-<p align="center">
-  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/fbc7cfb9-1cdc-4493-994e-eaa1986e882c">
 </p>
 <p align="center">
-  <mp4 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/d74e24ea-5b11-4efb-b1b7-a66115e37dfd">
+  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/48aa53c2-d20d-4cd8-95fb-3c8715806f14">
 </p>
-<p align="center">
-  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/32493d2c-c98d-404a-96bb-39aace8f6107">
+<h3 align="center">Supplementary Video about the Kinematic Diagram and D-H Frame
+<h4 align="center">To further understand how to get the Kinematic Diagram and D-H Frame, here is a supplementary video explaining how to get it.  
 </p>
-<h3 align="center">Supplementary Video about the Degrees of Freedom
-<h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
-</p>
-<a href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
+<a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff>
-    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff" alt="Discussion of Degrees of Freedom for the Articulated Manipulator" width = 600 title="Discussion of Degrees of Freedom for the Articulated Manipulator">
+    <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/4d78e754-6d0c-4092-9aa8-40d49bbee576>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
       
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
 
