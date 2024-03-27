@@ -11,7 +11,8 @@
 II. Degrees of Freedom
   
 III. Kinematic Diagram and D-H Frame 
-  
+  ![Screenshot 2024-03-27 103048](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3b8ac52e-4685-432a-8936-40f88288ff2e)
+
 IV. D-H Parametric Table  
   
 V. Homogeneous Transformation Matrix
@@ -30,7 +31,7 @@ IX. Curriculum Vitae
 
 
 <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
-![Screenshot 2024-03-27 103048](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/7954e567-1e21-4dcd-9882-2ba86cf2ceaa)
+
 
 <h2 align="center">IV. D-H PARAMETRIC TABLE
 
