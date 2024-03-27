@@ -38,7 +38,7 @@ IX. Curriculum Vitae
 </p>
    As the years passed, Articulated Manipulators undertake an innovation to take full advantage and unlock the full potential of their automation processes and make them more efficient. As a result, due to its ability to move quickly and precisely, it is used in manufacturing from assembly to material handling. In addition, Articulated Manipulators are now often used in Healthcare, Agriculture, Military Defense, and Education. With the help of advanced sensors, artificial intelligence, and adaptive algorithms, Articulated Manipulators continually improve their capabilities. For a variety of reasons, articulated robots are ideal for assembly applications. Their joints enable them to move in ways that other robots do not. Their payload capacity also allows them to transport items that other robot kinds cannot. They are accurate enough for even minor assembly operations. 
   
-<h2 align="center">II. DEGREES OF FREEDOM
+## <h2 align="center">II. DEGREES OF FREEDOM
 
   <h4 align="justify"> In robotic arms, a 'Degree of Freedom' (DoF) is an independent joint that allows the manipulator to move in either a rotational or translational (linear) direction. In addition, a robot's ability to move along how many independent axes or motions. It stands for the total number of independent parameters that affect how the robot is configured or posed. 
 </p>
@@ -60,22 +60,22 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/x4UnKbk0DU4&t=179s.jpg)](https://www.youtube.com/watch?v=x4UnKbk0DU4&t=179s)
 
 
-<h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
+## <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
  
   ![Screenshot 2024-03-27 103048](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3b8ac52e-4685-432a-8936-40f88288ff2e)
 
   
-<h2 align="center">IV. D-H PARAMETRIC TABLE
+## <h2 align="center">IV. D-H PARAMETRIC TABLE
 
 
-<h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
+## <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
 
 
-<h2 align="center">VI. INVERSE KINEMATICS USING GRAPHICAL METHOD
+## <h2 align="center">VI. INVERSE KINEMATICS USING GRAPHICAL METHOD
 
-<h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
+## <h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
 
-<h2 align="center">VIII. REFERENCES4
+## <h2 align="center">VIII. REFERENCES
 
 <h2 align="center">Group 13 - Articulated Team 
 
