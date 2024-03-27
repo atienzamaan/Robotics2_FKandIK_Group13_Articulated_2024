@@ -27,12 +27,17 @@ IX. Curriculum Vitae
 <h2 align="center">I. INTRODUCTION
 
 <h2 align="center">II. DEGREES OF FREEDOM
+![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/035fb2de-09f7-4958-93bf-45382d0660ba)
 
 <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
+![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/be388c9a-7547-466d-8747-804c41a0ae51)
 
 <h2 align="center">IV. D-H PARAMETRIC TABLE
+![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3cdab411-c2e0-4d03-aaeb-e88168386e70)
 
 <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
+![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/879698c4-3723-492a-a555-3e512d20ce5d)
+![Screenshot 2024-03-26 211252](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/b7e0bb11-1cf7-43c4-b232-9a41a7521b9e)
 
 <h2 align="center">VI. INVERSE KINEMATICS USING GRAPHICAL METHOD
 
