@@ -7,23 +7,22 @@
 
 <h2 align="center">TABLE OF CONTENTS:
 <h2 align="left">I. Introduction
+
+II. Degrees of Freedom
   
+III. Kinematic Diagram and D-H Frame 
   
-  II. Degrees of Freedom
+IV. D-H Parametric Table  
   
-  III. Kinematic Diagram and D-H Frame 
+V. Homogeneous Transformation Matrix
   
-  IV. D-H Parametric Table  
+VI. Inverse Kinematics
   
-  V. Homogeneous Transformation Matrix
+VII. Forward and Inverse Kinematics GUI Calculator
   
-  VI. Inverse Kinematics
+VIII. References
   
-  VII. Forward and Inverse Kinematics GUI Calculator
-  
-  VIII. References
-  
-  IX. Curriculum Vitae
+IX. Curriculum Vitae
 
 <h2 align="center">I. INTRODUCTION
 
