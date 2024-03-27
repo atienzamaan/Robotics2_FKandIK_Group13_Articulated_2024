@@ -8,7 +8,7 @@
   
   [I. Introduction](#i-introduction)
   
-  [II. Degrees of Freedom](ii-degrees-of-freedom--)
+  [II. Degrees of Freedom](ii-degrees-of-freedom)
   
 III. Kinematic Diagram and D-H Frame 
 </p>
