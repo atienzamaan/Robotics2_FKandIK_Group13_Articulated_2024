@@ -52,12 +52,11 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
 
-[![Watch the video](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/b2e9dc8a-e65e-428d-9fbe-ee5644b45839)]([https://youtu.be/SLOJkZhiALM](https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view))
+  [![Watch the video](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff.png)](https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view)
 
-## <h2 align="center">III. KINEMATIC DIAGRAM AND D-H FRAME
+
  
-  ![Screenshot 2024-03-27 103048](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3b8ac52e-4685-432a-8936-40f88288ff2e)
-
+## <h2 align="center">III. Kinematic Diagram and D-H Frame
   
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
 
