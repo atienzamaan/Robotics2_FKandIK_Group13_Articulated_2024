@@ -42,7 +42,6 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <p align="center">
   <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/5db25ea5-3888-4eb5-8b61-a97bce2d930e">
 </p>
-
 <p align="center">
   <mp4 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/d74e24ea-5b11-4efb-b1b7-a66115e37dfd">
 </p>
@@ -52,7 +51,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
 
-  [![Watch the video](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff.png)](https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view)
+  [![Watch the video](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff)](https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view)
 
 
  
