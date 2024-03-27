@@ -54,9 +54,7 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff" alt="Discussion of Degrees of Freedom for the Articulated Manipulator" width = 600 title="Discussion of Degrees of Freedom for the Articulated Manipulator">
-    <h5 align="center">Discussion of Degrees of Freedom for the Articulated Manipulator
     
- 
 ## <h2 align="center">III. Kinematic Diagram and D-H Frame
   
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
