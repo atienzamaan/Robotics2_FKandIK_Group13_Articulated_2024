@@ -52,8 +52,9 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 <a href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
     <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff" alt="Discussion of Degrees of Freedom for the Articulated Manipulator" width = 600 title="Discussion of Degrees of Freedom for the Articulated Manipulator">
-    
-## <h2 align="center">III. Kinematic Diagram and D-H Frame
+</a>    
+
+ ## <h2 align="center">III. Kinematic Diagram and D-H Frame
 <img align="right" alt="Coding" width="250" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/fbc7cfb9-1cdc-4493-994e-eaa1986e882c">
 </p>
 <h4 align="justify">The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.   
@@ -69,7 +70,8 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 <a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
  <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/4d78e754-6d0c-4092-9aa8-40d49bbee576>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
-      
+</a>   
+ 
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
 
 
