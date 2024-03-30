@@ -101,6 +101,8 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
   
  
 ## <h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
+<h4 align="justify">The following figures are the calculators used to compute an Articulated manipulator's forward and inverse kinematics used to calculate the values of the end effector velocity vector.
+
 
 ## <h2 align="center">VIII. REFERENCES
 
