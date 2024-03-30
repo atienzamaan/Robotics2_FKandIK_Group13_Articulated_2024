@@ -28,7 +28,7 @@
  <img align="left" alt="Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
 
   <h4 align="justify"> </div> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
-</p> 
+</p>
 </p>
    As the years passed, Articulated Manipulators undertake an innovation to take full advantage and unlock the full potential of their automation processes and make them more efficient. As a result, due to its ability to move quickly and precisely, it is used in manufacturing from assembly to material handling. In addition, Articulated Manipulators are now often used in Healthcare, Agriculture, Military Defense, and Education. With the help of advanced sensors, artificial intelligence, and adaptive algorithms, Articulated Manipulators continually improve their capabilities. For a variety of reasons, articulated robots are ideal for assembly applications. Their joints enable them to move in ways that other robots do not. Their payload capacity also allows them to transport items that other robot kinds cannot. They are accurate enough for even minor assembly operations. 
    
@@ -73,13 +73,33 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 </a>   
  
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
+<p align="center">
+  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/eb629da0-c230-4238-a76b-7d147f5b7033">
+<h4 align="justify">The Articulated Manipulator consists of three revolute joints and it can be seen on the three frames of the manipulator from frame 0, frame 1, and frame 2.   
+</p>
+<h4 align="justify">As seen in the table is parametric table of articulated manipulator, each column represents the number of parameters that are needed to complete the table such as parameter theta and alpha which represents the rotation of the manipulator, and the parameter r and d which represents the translation of the manipulator per frame.   
+</p> 
+<h3 align="center">Supplementary Video about the Parametric Table of Articulated Manipulator 
+<h4 align="center">To further understand how to get the Parametric Table, here is a supplementary video explaining how to get it.  
+</p>
 
-
-## <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
+ ## <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
 
 
 ## <h2 align="center">VI. INVERSE KINEMATICS USING GRAPHICAL METHOD
-
+<h4 align="justify">Inverse Kinematics  is the technique of computing joint angles using the end-effector's location and orientation.  In addition, Inverse kinematics simply requires a static set of joint angles to position a certain point (or combination of points) of the character (or robot) at a specific location. In comparison, Forward kinematics computes the chain's configuration using the joint parameters, whereas inverse kinematics reverses this computation to determine the joint parameters that produce the desired configuration. In contrast to the concept of forward kinematics, which involves determining the workspace coordinates of a robot based on a given configuration, inverse kinematics (IK) represents the inverse process. It entails calculating the appropriate configuration(s) to achieve a desired workspace coordinate. This operation holds significant value in various robotics applications, including the movement of tools along specified paths, object manipulation, and capturing scenes from desired viewpoints. The inverse kinematics function or algorithm takes a target position as its input and computes the necessary pose for the end effector to attain the target position, producing the pose as the output. In the realm of robotics, it can determine the optimal movements of a robotic arm to ensure that an actuator located at the arm's end is accurately positioned. Similarly, within the context of three-dimensional animation, inverse kinematics can be employed in animation software, allowing the movement of a subordinate joint in a hierarchical character rig to naturally influence parent objects. Due to its paramount importance, extensive research has been conducted on inverse kinematics, resulting in numerous techniques that facilitate efficient and reasonably reliable solutions. 
+</p>
+<h2 align="center">INVERSE KINEMATICS CALCULATION OF ARTICULATED MANIPULATOR (RRR)
+<h4 align="center">Inverse Kinematic Diagram (Top View)
+<p align="center">
+  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/2d03d5e0-33f1-43df-8eb7-3442e880f1aa">
+  </p>
+  <h4 align="center">Inverse Kinematic Diagram (Front View)
+<p align="center">
+  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3ca715be-2439-4d75-9d33-6348f2ede67c">
+  </p>
+  
+ 
 ## <h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
 
 ## <h2 align="center">VIII. REFERENCES
