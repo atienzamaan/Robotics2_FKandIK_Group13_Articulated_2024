@@ -34,12 +34,25 @@
 ## <h2 align="center">II. DEGREES OF FREEDOM
   <h4 align="justify"> In robotic arms, a 'Degree of Freedom' (DoF) is an independent joint that allows the manipulator to move in either a rotational or translational (linear) direction. In addition, a robot's ability to move along how many independent axes or motions. It stands for the total number of independent parameters that affect how the robot is configured or posed. 
 </p>
-Accordingly, to solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it a spatial or planar with the help of Grubler’s Criterion. The Articulated Manipulator has a total of 3 degrees of freedom that consist of 3 revolute joints also referred to as RRR (REVOLUTE REVOLUTE REVOLUTE).  
+Accordingly, to solve a DOF of a specific manipulator the first thing to do is to determine whether it is a spatial with 6 DOF or planar with 3 DOF. The next step is to figure out the number of joints and moving links on the manipulator. After that, the calculation of the number of joint constraints in the given manipulator and determining if it a spatial or planar with the help of Grubler’s Criterion. Lastly is to determine the types of manipulator based on the number of degrees of freedom. 
 </p>	  
 <p align="center">
   <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/5db25ea5-3888-4eb5-8b61-a97bce2d930e">
 </p>
-<p align="center">
+<h3 align="justify">Types of Manipulator based on the Number of Degrees of Freedom
+<h4 align="left">
+ 
+ __Under-actuated Manipulator__
++ Either a Spatial Manipulator w/less than 6-DOF or a Planar Manipulator w/less than 3-DOF. 
+
+__Ideal Manipulator__ 
++ Either a Spatial Manipulator w exactly 6-DOF or a Planar Manipulator w/exactly 3-DOF. 
+
+__Redundant Manipulator__ 
++ Either a Spatial Manipulator w/more than 6-DOF or a Planar Manipulator w/more than 3-DOF. 
+
+<h4 align="justify"> Calculating the DOF of an articulated manipulator allows you to grasp its capabilities and limitations, enabling you to design, program, and control these remarkable machines effectively. An articulated manipulator, often referred to as a robotic arm, consists of interconnected links and joints that mimic the movement capabilities of a human arm. Each joint provides a rotational or translational degree of freedom, allowing the manipulator to perform intricate tasks with remarkable dexterity. By calculating the DOF, we can quantitatively determine the range of motions and positions that the manipulator can achieve. The Articulated Manipulator has a total of 3 degrees of freedom that consist of 3 revolute joints also referred to as RRR (REVOLUTE REVOLUTE REVOLUTE).
+   <p align="center">
   <mp4 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/d74e24ea-5b11-4efb-b1b7-a66115e37dfd">
 </p>
 <p align="center">
@@ -54,12 +67,59 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 </a>    
 
  ## <h2 align="center">III. Kinematic Diagram and D-H Frame
-<img align="right" alt="Coding" width="250" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/fbc7cfb9-1cdc-4493-994e-eaa1986e882c">
-</p>
 <h4 align="justify">The Denavit-Hartenberg Notation, often known as D-H Notation, was developed in 1995 by Jacques Denavit and Richard Hartenberg to standardize coordinate frames for spatial links.   
 </p>	
-To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation). The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier. It is frequently used in robotics, particularly industrial robot systems and robot arms with manipulators. In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint. When implementing D-H Notation, these rules are utilized to allocate frames in a kinematic diagram. One of the rules is that we must utilize the "Right Hand Rule" to decide where to locate the X, Y, and Z axes.  
-</p>
+To solve the forward kinematics of a mechanical manipulator we will use the DH Notation (Denavit-Hartenberg Notation). 
+</p> 
+ 
+ + The D-H notation offers a systematic approach to express the geometric configuration of robotic systems, making kinematic analysis and modeling easier.
+ + It is frequently used in robotics, particularly industrial robot systems and robot arms with manipulators.
+
+In DH notation, there are some preliminary rules and main rules that define how to assign coordinate frames and determine the parameters for each joint. 
+</p> 
+<h3 align="justify">D-H Frame Preliminary Rules
+<h4 align="justify">
+
++ Rule 1:  Decide first the 3 views you want to project on your isometric drawing
+</p> 
+
++ Rule 2: Identify the center of your frames
+</p> 
+
++ Rule 3: Then draw your color coded arrows based on your decided 3 views.
+  + Blue - z axis
+  + Red - x axis
+  + Green - y axis
+<p align="left" width="200">
+  <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/efc4d132-c897-46c8-876a-2a110b61faee">
+</p> 
+
++ Rule 4: Remember to make the arrows of Z and X axes easy to see for the future computations
+  + Y axis less important than X and Z axes
+
+
+
+</p> 
+<h3 align="justify">D-H Frame Rules
+</p> 
+<h4 align="justify"> NOTE: THE COUNTING OF FRAMES STARTS FROM 0 (FROM THE FORMULA N-1)
+<h4 align="justify">
+<img align="right" alt="Coding" width="220" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/c508c14f-61ca-4ead-a578-ded4920210a6">
+
++ Rule 1: The Z axis must be the axis of rotation for a revolute/twisting, or the direction of translation for a prismatic joint. (Labels starts from Z0)
+</p> 
+
++ Rule 2: The X axis must be perpendicular both to its own Z axis, and the Z axis of the frame before it. (Labels starts from X0)
+</p> 
+
++ Rule 3: Each X axis must intersect the Z axis of the frame before it. Rules for complying Rule 3:
+  + Rotate the axis until it hits the other.
+  + Or translate the axis until it hits the other.
+
+</p> 
+
++ Rule 4: All frames must follow the right-hand rule (Labels starts from Y0)
+</p> 
 <p align="center">
   <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/48aa53c2-d20d-4cd8-95fb-3c8715806f14">
 </p>
