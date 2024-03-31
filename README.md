@@ -25,7 +25,7 @@
   [IX. Curriculum Vitae](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
-<img align="left" alt = "Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
+<img align="left" alt = "Coding" width="300" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
  <h4 align="justify"> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
 </p>
 </p>
@@ -182,13 +182,15 @@ The Denavit-Hartenberg parameter tables consist of four variables:
  </p> 
  In comparison, Forward kinematics computes the chain's configuration using the joint parameters, whereas inverse kinematics reverses this computation to determine the joint parameters that produce the desired configuration. In contrast to the concept of forward kinematics, which involves determining the workspace coordinates of a robot based on a given configuration, inverse kinematics (IK) represents the inverse process. It entails calculating the appropriate configuration(s) to achieve a desired workspace coordinate. This operation holds significant value in various robotics applications, including the movement of tools along specified paths, object manipulation, and capturing scenes from desired viewpoints. 
 </p>  
- The inverse kinematics function or algorithm takes a target position as its input and computes the necessary pose for the end effector to attain the target position, producing the pose as the output. In the realm of robotics, it can determine the optimal movements of a robotic arm to ensure that an actuator located at the arm's end is accurately positioned. Similarly, within the context of three-dimensional animation, inverse kinematics can be employed in animation software, allowing the movement of a subordinate joint in a hierarchical character rig to naturally influence parent objects. Due to its paramount importance, extensive research has been conducted on inverse kinematics, resulting in numerous techniques that facilitate efficient and reasonably reliable solutions. 
-</p>
- 
- ![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0f5f58d9-674d-49a3-a218-ee3ef85a12ad)
-
- ![image](https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/912e45cc-ac52-4d63-b1f3-e0b00e116c7a)
-
+ In forward kinematics the given inputs are the joint variables, using the homogenous transformation matrix, we will obtain the output, position vector. 
+<p align="center">
+  <img width="700"  src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0f5f58d9-674d-49a3-a218-ee3ef85a12ad">
+</p>  
+While in inverse kinematics, the given input is the position vector, while the output is the joint variable, the method to obtain the output is depends on the design of difficulty of the mechanical manipulator.   
+<p align="center">
+  <img width="700" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/84874595-5171-4371-879b-98f0b53db9dd">
+</p> 
+The inverse kinematics function or algorithm takes a target position as its input and computes the necessary pose for the end effector to attain the target position, producing the pose as the output. In the realm of robotics, it can determine the optimal movements of a robotic arm to ensure that an actuator located at the arm's end is accurately positioned. Similarly, within the context of three-dimensional animation, inverse kinematics can be employed in animation software, allowing the movement of a subordinate joint in a hierarchical character rig to naturally influence parent objects. Due to its paramount importance, extensive research has been conducted on inverse kinematics, resulting in numerous techniques that facilitate efficient and reasonably reliable solutions. 
 
 <h2 align="center">INVERSE KINEMATICS CALCULATION OF ARTICULATED MANIPULATOR (RRR)
 <h4 align="center">Inverse Kinematic Diagram (Top View)
@@ -202,36 +204,56 @@ The Denavit-Hartenberg parameter tables consist of four variables:
 <h3 align="center">Supplementary Video about the Inverse Kinematics of Articulated Manipulator 
 <h4 align="center">To further understand how to get the Inverse Kinematics, here is a supplementary video explaining how to get it.  
  <a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
- <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e5f516cd-2fbf-45da-8123-0ff7112c0541>
-    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
+ <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/b84d8bfe-8a95-426a-b81a-ef5a5e81ef67>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/a88c68d3-21d7-4813-9923-17ce34bfaf3d" alt="Discussion of Inverse Kinematics for the Articulated Manipulator" width = 600 title="Discussion of Inverse Kinematics for the Articulated Manipulator">
 </a>   
  
 ## <h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
-<h4 align="justify">The following figures are the calculators used to compute an Articulated manipulator's forward and inverse kinematics used to calculate the values of the end effector velocity vector.
-
+<h4 align="justify">GUI calculator is only a calculator but one can use it by clicking buttons, not by typing something like in python print(2+2), and then will get the result as 4 in the black and white environment. In the GUI calculator, all its operators and numbers are represented graphically and one can click it and use it. GUI is simply a visual and more easy-to-use way to interact with a computer, example: one will easily click a button to know what time it is. But it will be more complex to type “time” to get the current time.
+<h4 align="justify">Below figure is the calculator created using python, it is used to compute an articulated manipulator's forward and inverse kinematics.<p align="center">
+  <img width=300 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/f5f8d1a0-081e-454f-a9d2-30af4392627e">
+<h3 align="center">Simulation of Calculators
+</p> 
+ <a href="https://drive.google.com/file/d/1XRXWK5P27zj8uTAFQfOhpmAZgihVD4It/view?usp=sharing">
+ <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/6cc8bea9-88d4-4b98-a38c-3335be7b9f08>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/6cc8bea9-88d4-4b98-a38c-3335be7b9f08" alt="Discussion of Inverse Kinematics for the Articulated Manipulator" width = 600 title="Discussion of Inverse Kinematics for the Articulated Manipulator">
+</a>   
 
 ## <h2 align="center">VIII. REFERENCES
 
 ## <h2 align="center">Our Team 
 
-<h2 align="left">Abong, Louwella (PL)
-  
-  Atienza, Ma. Angela (PQ)
-  
-  Marasigan, Stanlee (PP)
-  
-  Reyes, Shervin (PS)
+<h2 align="left">
+
+[Abong, Louwella](#abong-louwella-p) (PL - Project Leader)
+</p>   
+ 
+[Atienza, Ma. Angela](#atienza-ma-angela-e) (PQ - Project Quality Engineer)
+ </p>  
+ 
+[Marasigan, Stanlee]() (PP - Project Programmer)
+</p>   
+ 
+[Reyes, Shervin]() (PS - Project Supervisor)
+</p> 
+
+Instructor: Engr. Mikko De Torres
 
 <h2 align="center">Curriculum Vitae
 
-## Abong, Louwella (PL)
-  
-## Atienza, Ma. Angela (PQ)
+## Abong, Louwella P.
+<p align="center">
+  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">  
+ 
+## Atienza, Ma. Angela E. 
 <p align="center">
   <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
-</p>
 
-
-## Marasigan, Stanlee (PP)
-
-## Reyes, Shervin (PS)
+## Marasigan, Stanlee B.
+<p align="center">
+  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+ 
+## Reyes, Shervin D.
+<p align="center">
+  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+  
