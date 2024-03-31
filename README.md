@@ -231,10 +231,10 @@ The inverse kinematics function or algorithm takes a target position as its inpu
 [Atienza, Ma. Angela](#atienza-ma-angela-e) (PQ - Project Quality Engineer)
  </p>  
  
-[Marasigan, Stanlee]() (PP - Project Programmer)
+[Marasigan, Stanlee](#marasigan-stanlee-b) (PP - Project Programmer)
 </p>   
  
-[Reyes, Shervin]() (PS - Project Supervisor)
+[Reyes, Shervin](#reyes-shervin-d) (PS - Project Supervisor)
 </p> 
 
 Instructor: Engr. Mikko De Torres
@@ -243,17 +243,17 @@ Instructor: Engr. Mikko De Torres
 
 ## Abong, Louwella P.
 <p align="center">
-  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">  
+  <img width=400 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/66718567-828b-4e3a-a80d-460eb2a9651f">  
  
 ## Atienza, Ma. Angela E. 
 <p align="center">
-  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+  <img width=400 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
 
 ## Marasigan, Stanlee B.
 <p align="center">
-  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+  <img width=400 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e8a61f91-9970-4084-9ce0-02a260a3401a">
  
 ## Reyes, Shervin D.
 <p align="center">
-  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+  <img width=400 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/34f99327-fe7b-4c9e-8082-cec44a0dead9">
   
