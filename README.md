@@ -25,13 +25,12 @@
   [IX. Our Team](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
- <img align="left" alt="Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
-
-  <h4 align="justify"> </div> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
+<img align="left" alt = "Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
+ <h4 align="justify"> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
 </p>
 </p>
    As the years passed, Articulated Manipulators undertake an innovation to take full advantage and unlock the full potential of their automation processes and make them more efficient. As a result, due to its ability to move quickly and precisely, it is used in manufacturing from assembly to material handling. In addition, Articulated Manipulators are now often used in Healthcare, Agriculture, Military Defense, and Education. With the help of advanced sensors, artificial intelligence, and adaptive algorithms, Articulated Manipulators continually improve their capabilities. For a variety of reasons, articulated robots are ideal for assembly applications. Their joints enable them to move in ways that other robots do not. Their payload capacity also allows them to transport items that other robot kinds cannot. They are accurate enough for even minor assembly operations. 
-   
+
 ## <h2 align="center">II. DEGREES OF FREEDOM
   <h4 align="justify"> In robotic arms, a 'Degree of Freedom' (DoF) is an independent joint that allows the manipulator to move in either a rotational or translational (linear) direction. In addition, a robot's ability to move along how many independent axes or motions. It stands for the total number of independent parameters that affect how the robot is configured or posed. 
 </p>
@@ -82,6 +81,11 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 <h3 align="center">Supplementary Video about the Parametric Table of Articulated Manipulator 
 <h4 align="center">To further understand how to get the Parametric Table, here is a supplementary video explaining how to get it.  
 </p>
+<a href="https://drive.google.com/file/d/18cw6NJNt64Ajvra6pkWnRcIHqiqVB5f5/view?usp=sharing">
+ <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/7ffbb227-fb39-4027-818f-427895ec2b5f>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/7ffbb227-fb39-4027-818f-427895ec2b5f" alt="Discussion of D-H Parametric Table for the Articulated Manipulator" width = 600 title="Discussion of D-H Parametric Table for the Articulated Manipulator">
+</a>   
+ 
 
  ## <h2 align="center">V. HOMOGENEOUS TRANSFORMATION MATRIX
 
