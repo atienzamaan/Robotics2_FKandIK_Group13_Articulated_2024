@@ -26,8 +26,8 @@
   [IX. Curriculum Vitae](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
-<img align="right" alt = "Python" width="300" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/befaf219-f7f4-46e6-8c83-3bb39b83a67e">
-
+<p align="center">
+  <img alt = "Python" width="300" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/befaf219-f7f4-46e6-8c83-3bb39b83a67e">
  <h5 align="justify"> Articulated Manipulators also called Robotic Arms are known for their high adaptability and versatility to perform widespread functions. In 1950, Articulated Manipulators were introduced for manufacturing processes. Afterward, They substantially developed and now play a crucial role in a variety of fields, including the automobile, aerospace, healthcare, and research. The value of articulated robots is derived from their capacity to increase efficiency, precision, and safety in a variety of processes. These robots are meant to conduct repetitive and risky jobs that people typically find too difficult or unsafe to execute. 
 </p>
    As the years passed, Articulated Manipulators undertook an innovation to take full advantage and unlock the full potential of their automation processes and make them more efficient. As a result, due to its ability to move quickly and precisely, it is used in manufacturing from assembly to material handling. In addition, Articulated Manipulators are now often used in Healthcare, Agriculture, Military Defense, and Education. With the help of advanced sensors, artificial intelligence, and adaptive algorithms, Articulated Manipulators continually improve their capabilities. For a variety of reasons, articulated robots are ideal for assembly applications. Their joints enable them to move in ways that other robots do not. Their payload capacity also allows them to transport items that other robot kinds cannot. They are accurate enough for even minor assembly operations. 
