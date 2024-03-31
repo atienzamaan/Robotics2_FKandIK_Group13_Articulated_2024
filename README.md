@@ -1,4 +1,4 @@
-<h1 align="center">ARTICULATED MANIPULATOR
+## <h1 align="center">ARTICULATED MANIPULATOR
  
 ## <h2 align="center"> Abstract 
 <img align="left" alt = "Coding" width="135" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
