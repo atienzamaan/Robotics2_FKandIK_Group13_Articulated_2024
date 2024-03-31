@@ -22,7 +22,7 @@
   
   [VIII. References](viii-references)
   
-  [IX. Our Team](#our-team)
+  [IX. Curriculum Vitae](#our-team)
 
 ## <h2 align="center">I. INTRODUCTION
 <img align="left" alt = "Coding" width="400" src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/1f51c48d-83c9-41cc-a03b-464adfa76a4d">
@@ -47,8 +47,8 @@ Accordingly, to solve a DOF of a specific manipulator the first thing to do is t
 </p>
 <h3 align="center">Supplementary Video about the Degrees of Freedom
 <h4 align="center">To further understand how to get the Degrees of Freedom of an Articulated Manipulator, here is a supplementary video explaining how to get it.  
-</p>
-<a href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
+</p> 
+ <a href="https://drive.google.com/file/d/13NccGlxma1fw7g3MDnbqmGmPHvtEQ4wS/view">
     <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/69f0608b-6055-49a4-9c53-84936f0e0aff" alt="Discussion of Degrees of Freedom for the Articulated Manipulator" width = 600 title="Discussion of Degrees of Freedom for the Articulated Manipulator">
 </a>    
@@ -65,8 +65,7 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 </p>
 <h3 align="center">Supplementary Video about the Kinematic Diagram and D-H Frame
 <h4 align="center">To further understand how to get the Kinematic Diagram and D-H Frame, here is a supplementary video explaining how to get it.  
-</p>
-<a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
+ <a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
  <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/4d78e754-6d0c-4092-9aa8-40d49bbee576>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
 </a>   
@@ -78,10 +77,9 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 </p>
 <h4 align="justify">As seen in the table is parametric table of articulated manipulator, each column represents the number of parameters that are needed to complete the table such as parameter theta and alpha which represents the rotation of the manipulator, and the parameter r and d which represents the translation of the manipulator per frame.   
 </p> 
-<h3 align="center">Supplementary Video about the Parametric Table of Articulated Manipulator 
-<h4 align="center">To further understand how to get the Parametric Table, here is a supplementary video explaining how to get it.  
-</p>
-<a href="https://drive.google.com/file/d/18cw6NJNt64Ajvra6pkWnRcIHqiqVB5f5/view?usp=sharing">
+<h3 align="center">Supplementary Video about the D-H Parametric Table of Articulated Manipulator 
+<h4 align="center">To further understand how to get the D-H Parametric Table, here is a supplementary video explaining how to get it.  
+ <a href="https://drive.google.com/file/d/18cw6NJNt64Ajvra6pkWnRcIHqiqVB5f5/view?usp=sharing">
  <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/7ffbb227-fb39-4027-818f-427895ec2b5f>
     <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/7ffbb227-fb39-4027-818f-427895ec2b5f" alt="Discussion of D-H Parametric Table for the Articulated Manipulator" width = 600 title="Discussion of D-H Parametric Table for the Articulated Manipulator">
 </a>   
@@ -102,7 +100,12 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
 <p align="center">
   <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/3ca715be-2439-4d75-9d33-6348f2ede67c">
   </p>
-  
+<h3 align="center">Supplementary Video about the Inverse Kinematics of Articulated Manipulator 
+<h4 align="center">To further understand how to get the Inverse Kinematics, here is a supplementary video explaining how to get it.  
+ <a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
+ <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e5f516cd-2fbf-45da-8123-0ff7112c0541>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
+</a>   
  
 ## <h2 align="center">VII. FORWARD AND INVERSE KINEMATICS GUI CALCULATOR
 <h4 align="justify">The following figures are the calculators used to compute an Articulated manipulator's forward and inverse kinematics used to calculate the values of the end effector velocity vector.
@@ -120,11 +123,16 @@ To solve the forward kinematics of a mechanical manipulator we will use the DH N
   
   Reyes, Shervin (PS)
 
-<h2 align="center">Our Team 
-Abong, Louwella (PL)
+<h2 align="center">Curriculum Vitae
+
+## Abong, Louwella (PL)
   
-Atienza, Ma. Angela (PQ)
+## Atienza, Ma. Angela (PQ)
+<p align="center">
+  <img width=500 src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/e7d22d5e-bd47-47b5-9b3f-95e8f99965a9">
+</p>
 
-Marasigan, Stanlee (PP)
 
-Reyes, Shervin (PS)
+## Marasigan, Stanlee (PP)
+
+## Reyes, Shervin (PS)
