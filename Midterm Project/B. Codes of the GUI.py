@@ -47,7 +47,7 @@ def f_k():
 
 # Parametric Table (theta, alpha, r, d)
     PT = [[T1,(90.0/180.0)*np.pi,0,a1],
-          [T2,(0.0/180.0)*np.pi,a2,0],
+          [T2,(45.0/180.0)*np.pi,a2,0],
           [T3,(0.0/180.0)*np.pi,a3,0]]
 
 # HTM formulae
