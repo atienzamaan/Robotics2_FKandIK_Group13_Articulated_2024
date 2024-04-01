@@ -8,8 +8,8 @@ disp('Articulated')
 syms a1 a2 a3 t1 t2 t3
 
 %% Link Lengths
-a1 = 10;
-a2 = 30;
+a1 = 30;
+a2 = 10;
 a3 = 20;
 
 %% D-H Parameters [theta, d, r, alpha, offset]
