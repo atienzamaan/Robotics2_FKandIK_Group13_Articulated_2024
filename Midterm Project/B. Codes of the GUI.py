@@ -33,7 +33,7 @@ def f_k():
 #link lengths in mm
     a1 = float(a1_E.get())/100
     a2 = float(a2_E.get())/100
-    a3 = float(a3_E.get())/120
+    a3 = float(a3_E.get())/100
 
 #joint variables in mm
     T1 = float(T1_E.get())
