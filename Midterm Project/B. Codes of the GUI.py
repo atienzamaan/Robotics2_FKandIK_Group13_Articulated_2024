@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import*
 from tkinter import messagebox
-from PIL import ImageTk, Image
+from tkinter import PhotoImage
 import numpy as np
 import math
 import roboticstoolbox as rtb
@@ -99,15 +99,15 @@ def f_k():
     q1 = np.array([T1,T2,T3])
     
         #plot scale
-        x1 = -0.5
-        x2 = 0.5
-        y1 = -0.5
-        y2 = 0.5
-        z1 = 0.0
-        z2 = 0.5
+    x1 = -0.5
+    x2 = 0.5
+    y1 = -0.5
+    y2 = 0.5
+    z1 = 0.0
+    z2 = 0.5
     
         #Plot Command
-        Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
+    Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
 
 def i_k():
 #link lengths in mm
@@ -121,9 +121,9 @@ def i_k():
     z0_3 = float(Z_E.get())
 
     if x0_3 == 0:
-         t1 = np.pi/2 if y0_3 > 0 else -np.pi/2
+         TH1 = np.pi/2 if y0_3 > 0 else -np.pi/2
     else:
-         t1 = np.arctan(y0_3/x0_3) #Solution1
+         TH1 = np.arctan(y0_3/x0_3) #Solution1
 
     r1 = np.sqrt(y0_3**2 + x0_3**2) #Solution2
     r2 = z0_3-a1 #Solution3
@@ -137,20 +137,20 @@ def i_k():
 
     phi2 = np.arccos(np.clip((a3**2-a2**2-r3**2)/(-2*a2*r3),-1,1)) #Solution6
 
-    t2 = phi1+phi2 #Solution7
+    TH2 = phi1+phi2 #Solution7
 
     phi3 = np.arccos(np.clip((r3**2-a2**2-a3**2)/(-2*a2*a3),-1,1)) #Solution8
 
-    t3 = phi3-np.pi #Solution9
+    TH3 = phi3-np.pi #Solution9
 
     T1_E.delete(0,END)
-    T1_E.insert(0,np.around(t1*180/np.pi,3))
+    T1_E.insert(0,np.around(TH1*180/np.pi,3))
 
     T2_E.delete(0,END)
-    T2_E.insert(0,np.around(t2*180/np.pi,3))
+    T2_E.insert(0,np.around(TH2*180/np.pi,3))
 
     T3_E.delete(0,END)
-    T3_E.insert(0,np.around(t3*180/np.pi,3))
+    T3_E.insert(0,np.around(TH3*180/np.pi,3))
 
 #Create links
 #[robot_value]=DHRobot([RevoluteDH(d,r,alpha,offset)])
@@ -160,18 +160,18 @@ def i_k():
         RevoluteDH(0,a2/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
         RevoluteDH(0,a3/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2])],name='Articulated')
    
-    q1 = np.array([Th1,Th2,Th3])
+    q1 = np.array([TH1,TH2,TH3])
     
         #plot scale
-        x1 = -0.5
-        x2 = 0.5
-        y1 = -0.5
-        y2 = 0.5
-        z1 = 0.0
-        z2 = 0.5
+    x1 = -0.5
+    x2 = 0.5
+    y1 = -0.5
+    y2 = 0.5
+    z1 = 0.0
+    z2 = 0.5
     
         #Plot Command
-        Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
+    Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
 
 
     print(Articulated)
