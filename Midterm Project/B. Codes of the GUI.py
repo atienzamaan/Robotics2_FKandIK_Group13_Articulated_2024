@@ -95,8 +95,19 @@ def f_k():
         RevoluteDH(a1,0,(90.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
         RevoluteDH(0,a2,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
         RevoluteDH(0,a3,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2])],name='Articulated')
+
+    q1 = np.array([T1,T2,T3])
     
-    Articulated.plot(q=[T1,T2,T3])
+        #plot scale
+        x1 = -0.5
+        x2 = 0.5
+        y1 = -0.5
+        y2 = 0.5
+        z1 = 0.0
+        z2 = 0.5
+    
+        #Plot Command
+        Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
 
 def i_k():
 #link lengths in mm
@@ -149,7 +160,18 @@ def i_k():
         RevoluteDH(0,a2/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
         RevoluteDH(0,a3/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2])],name='Articulated')
    
-    Articulated.plot(q=[t1,t2,t3])
+    q1 = np.array([Th1,Th2,Th3])
+    
+        #plot scale
+        x1 = -0.5
+        x2 = 0.5
+        y1 = -0.5
+        y2 = 0.5
+        z1 = 0.0
+        z2 = 0.5
+    
+        #Plot Command
+        Articulated.plot(q1,limits=[x1,x2,y1,y2,z1,z2],block=True)
 
 
     print(Articulated)
