@@ -124,9 +124,9 @@ In DH notation, there are some preliminary rules and main rules that define how 
 </p>
 <h4 align="center">Supplementary Video about the Kinematic Diagram and D-H Frame
 <h5 align="center">To further understand how to get the Kinematic Diagram and D-H Frame, here is a supplementary video explaining how to get it.  
- <a href="https://drive.google.com/file/d/1CX_0pApp5kKIIYxm54IEQ58krmHvNwGa/view">
- <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/4d78e754-6d0c-4092-9aa8-40d49bbee576>
-    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/0836528d-49da-4a64-ab87-37b3838f418e" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
+ <a href="https://drive.google.com/file/d/1bfWewgJJMuP3o2w0PgTSxorRoSiUk8wJ/view?usp=sharing">
+ <source media="(prefers-color-scheme: dark)" srcset=https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/945798f5-d622-4f12-b3ed-3a9cf3cd8f02>
+    <img src="https://github.com/stnll/Robotics2_FKandIK_Group13_Articulated_2024/assets/157665975/6b8dc5e6-39d6-4d83-ba68-837c1b37efda" alt="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator" width = 600 title="Discussion of Kinematic Diagram and D-H Frame for the Articulated Manipulator">
 </a>   
  
 ## <h2 align="center">IV. D-H PARAMETRIC TABLE
